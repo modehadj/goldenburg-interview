@@ -33,7 +33,7 @@ The goldenburg-interview project is a landing page to showcase my programming sk
 
 1. Clone the repository:
 
-  git clone [git@github.com:modehadj/goldenburg-interview.git]
+  git clone [https://github.com/modehadj/goldenburg-interview.git]
 
 2. Open `index.html` in your web browser.
 
