@@ -76,7 +76,7 @@ a.btn{
 #box .content{
     border: 1px solid var(--primary-color);
     background-color: #000;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 5px;
 }
 #box .content p{
@@ -97,6 +97,7 @@ a.btn{
 
 #standard{
     border: 3px solid #8a8a8a;
+    box-shadow: 1px 1px 10px #a5a5a5;
 }
 #standard .account-price , #standard a.btn{
     background-color: #8a8a8a !important;
@@ -104,6 +105,7 @@ a.btn{
 }
 #pro{
     border: 3px solid var(--primary-color);
+    box-shadow: 1px 1px 10px #a5a5a5;
 }
 #pro .account-price ,#pro a.btn{
     background-color: var(--primary-color) !important;
@@ -112,6 +114,7 @@ a.btn{
 
 #vip{
     border: 3px solid #000;
+    box-shadow: 1px 1px 10px #a5a5a5;
 }
 #vip .account-price , #vip a.btn{
     background-color: #000 !important;
@@ -207,10 +210,11 @@ section{
     font-size: 10px;
     line-height: 2;
 }
+
 footer{
     background-image: linear-gradient(180deg, #fff, #000);
-    height: 100vh;
 }
+
 footer .img-bg{
     border-radius: 50%;
     background-color: var(--primary-color); 
@@ -263,4 +267,25 @@ footer img{
 
 .mobile form label{
     color:#fff;
+}
+
+/* tablet */
+
+.tablet .platform::before {
+    content: '';
+    position: absolute;
+    background-image: url(..//left-hand-mobile.png);
+    background-repeat: no-repeat;
+    background-position: left 40px bottom 20px;
+    background-size: 20% auto;
+    width: 100%;
+    height: 140%;
+    z-index: 0;
+}
+
+.tablet .platform {
+    background-image: url(..//right-hand-buy-sellx2.png);
+    background-repeat: no-repeat;
+    background-position: right 10px top 20px;
+    background-size: 30% auto;
 }
