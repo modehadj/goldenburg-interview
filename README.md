@@ -15,7 +15,6 @@ Welcome to goldenburg-interview project! This is a simple one-page website built
 
 The goldenburg-interview project is a landing page to showcase my programming skills using HTML5 and Bootsrtap. The landing page is responsive on Desktop, Tablet and Mobile using Javascript to reformat the pages.
 
-
 ## Features
 
 - Responsive design for various screen sizes (desktop, tablet, mobile).
@@ -27,6 +26,7 @@ The goldenburg-interview project is a landing page to showcase my programming sk
 - HTML5
 - CSS
 - JS
+- Swiper (slider library)
 - Bootstrap 5
 
 ## Installation
